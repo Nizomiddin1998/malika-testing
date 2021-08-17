@@ -1,0 +1,86 @@
+#nav{
+    height: 80px;
+    background-color: #444;
+    display: flex;
+    align-items: center;
+}
+.Navbar h1{
+    font-size: 28px;
+}
+.Navbar h1 a{
+    color: #fff!important;
+    text-decoration: none;
+    border-left: 10px solid #F07427;
+
+}
+.nav-menu{
+    float: right;
+}
+.Navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Navbar a:hover{
+    color: #F07427!important;
+}
+.nav-menu li{
+    float: left;
+    white-space: nowrap !important;
+    list-style-type: none;
+    margin-left: 20px;
+}
+.nav-menu a{
+    color: #ffffff !important;
+}
+.drop-down{
+    position: relative;
+}
+.drop-down-1  li{
+    padding: 0 !important;
+    margin: 0!important;
+    list-style-type: none;
+}
+.drop-down:hover .drop-down-1{
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    position: absolute;
+    background-color: #444;
+}
+.drop-down-1{
+    display: none;
+    padding-left: 0 !important;
+}
+.drop-down a{
+    display: block;
+    color: #fff;
+}
+.drop-down1 .drop-down-2{
+    display: none;
+}
+.nav-menu li a{
+    display: block;
+    text-decoration: none;
+}
+.slider{
+    display: flex;
+    justify-content: center;
+}
+.radius{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.counter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: 0 0  30px #333;
+}
+.counter h1{
+    font-size: 56px !important;
+}
